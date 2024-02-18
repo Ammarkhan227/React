@@ -1,0 +1,81 @@
+.main{
+    /* background-image: linear-gradient(180deg, #d90ce8, #0c13e8); */
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #d90ce8; */
+
+}
+
+.body{
+    /* background-image: linear-gradient(180deg, #d90ce8, #0c13e8); */
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width: 150px;  
+}
+.nav-items{
+    padding: 0px 20px;
+    background-color: transparent;
+}
+.nav-items > ul{
+    list-style: none;
+    display: flex;
+    margin-top: 38px;
+    
+    
+}
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    cursor: pointer;
+}
+
+.searchbar{
+    margin: 10px 60px 10px 0px;
+    padding: 10px 8rem;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 35rem;
+    background-image: transparent;
+}
+.searchbutton{
+    padding: 8px 30px;
+    cursor: pointer;
+}
+.restourant-cards{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 230px;
+    /* height: 300px; */
+    padding: 2px;
+    margin: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: bisque;
+
+}
+.card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.card-logo{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
