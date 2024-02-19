@@ -3,19 +3,19 @@
     align-items: center;
     margin: 0px;
     padding: 0px;
-    /* background-color: #d90ce8; */
+    background-color: #123135;
 
 }
 
 .body{
-    /* background-image: linear-gradient(180deg, #d90ce8, #0c13e8); */
+   background-color: #123135;
 }
 
 
 .header{
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .logo{
     width: 150px;  
@@ -30,6 +30,7 @@
     margin-top: 38px;
     
     
+    
 }
 .nav-items > ul > li{
     padding: 10px;
@@ -37,8 +38,11 @@
     font-size: 20px;
     font-weight: 600;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black;
+    color: #ffffd7;
     cursor: pointer;
+}
+.search{
+    margin-bottom: 40px;
 }
 
 .searchbar{
@@ -47,31 +51,40 @@
     border-radius: 5px;
     justify-content: center;
     margin-left: 35rem;
-    background-image: transparent;
+    background-color: #ffffd7;
 }
 .searchbutton{
     padding: 8px 30px;
     cursor: pointer;
+    background-color: #ffffd7;
+    font-weight: 600;
+    border-radius: 8px;
 }
 .restourant-cards{
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
+    
 }
 .card{
-    width: 230px;
+    width: 200px;
     /* height: 300px; */
     padding: 2px;
     margin: 5px;
     border-radius: 5px;
     margin-bottom: 10px;
     text-align: center;
-    background-color: bisque;
+    background-color: #e2e2e2;
+    
+   
 
 }
 .card:hover{
     border: 1px solid black;
     cursor: pointer;
+    transition-property:  all;
+    transition-duration: .4s;
+    transform: scale(1.1);
 }
 
 .card-logo{
